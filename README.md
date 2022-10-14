@@ -1,3 +1,4 @@
-# git_test
-GitHub Repo for TOP
-Hello Odin!
+# Eric's Personal Website
+
+My personal website repository
+
