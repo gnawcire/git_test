@@ -3,26 +3,101 @@ body {
 }
 
 h3 {
+    
     color: #F0F0F0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+    font-size: 75%;
     text-align: center;
+    margin: auto;
+    
+    
+}
+.descrip{
+    margin:auto;
+    margin-top: 15%;
+    border-radius: 15px;
+    background: hsl(0, 3%, 29%);
+    padding: 13px; 
+    width: 320px;
+    height: 15px;
 }
 
-
-h5 {
+h4 {
+    
     color:white;
-    font-family: sans-serif;
-    text-align: center;
-    font-size: small;
+    font-family: 'M PLUS Rounded 1c';
+    font-size: 300%;
+    display:flex;
+    
+    
+    
+    
 }
 
 img{
-    display: block;
+    display: flex;
+    position: relative;
     object-fit: cover;
     border-radius: 50%;
-    height: 120px;
-    width: 120px;
+    height: 90px;
+    width: 90px;
     margin:auto;
+    margin-top: 0%;
+    margin-left: 10%;
+    
 }
+.image{
+    text-align: center;
+}
+.box {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 110px;
+ }
 
+.container {
+    position: relative;
+    top: 0%;
+    left: 50%;
+    margin-left: -64.5px;
+    margin-top: -355.5px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ghost {
+    animation: float 3s ease-out infinite;
+  }
+  
+  @keyframes float {
+    50% {
+       transform: translate(0, 20px);
+    }
+  }
+  .shadowFrame {
+    width: 130px;
+    margin-top: 15px;
+  }
+  .shadow {
+    animation: shrink 3s ease-out infinite;
+    transform-origin: center center;
+   
+  }
+  
+  @keyframes shrink {
+    0% {
+      width: 90%;
+      margin: 0 5%;
+    }
+    50% {
+      width: 60%;
+      margin: 0 18%;
+    }
+    100% {
+      width: 90%;
+      margin: 0 5%;
+    }
+  }
+ 
