@@ -1,3 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+header {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:  #303030;
+    color:#ecf0f1;
+    height: 15px;
+}
+
+ li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color:  #303030;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.logo{
+    width:47.88px;
+    height:36.62px;
+    cursor: pointer;
+    
+}
+
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9
+}
+
+button{
+    padding:9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+header {
+    display:flex;
+    justify-content: space-between; /*pushes left and right item to far edges, and middle item evenly spaced */
+    align-items: center; /*centers it on one another*/
+    padding: 30px 10%;
+}
+
+
 body {
     background-color: #303030;
 }
@@ -34,7 +98,7 @@ h4 {
     
 }
 
-img{
+.rounded{
     display: flex;
     position: relative;
     object-fit: cover;
@@ -58,7 +122,7 @@ img{
 
 .container {
     position: relative;
-    top: 0%;
+    top: 5%;
     left: 50%;
     margin-left: -64.5px;
     margin-top: -355.5px;
@@ -100,4 +164,38 @@ img{
       margin: 0 5%;
     }
   }
- 
+  .footer {
+    position: fixed;
+    padding-bottom: 35px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  
+
+
+  .social_list_link:hover{
+    opacity: .7;
+}
+
+.social_list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 0;
+    padding: 0;
+}
+
+.social_list_item{
+    margin: 0 .5em;
+}
+
+.social_list_link{
+    padding: 0 .5em;
+}
+.copyright{
+    font-family: 'M PLUS Rounded 1c';
+    font-size: 80%;
+}
