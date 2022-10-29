@@ -78,7 +78,7 @@ h3 {
 }
 .descrip{
     margin:auto;
-    margin-top: 15%;
+    margin-top: 19%;
     border-radius: 15px;
     background: hsl(0, 3%, 29%);
     padding: 13px; 
@@ -117,15 +117,15 @@ h4 {
     display: flex;
     align-items:center;
     justify-content: center;
-    height: 110px;
+    height: 100px;
  }
 
 .container {
     position: relative;
-    top: 5%;
+    top: 0%;
     left: 50%;
-    margin-left: -64.5px;
-    margin-top: -355.5px;
+    margin-left: -62.75px;
+    margin-top: -335.5px;
     width: 100px;
     align-items: center;
     justify-content: center;
